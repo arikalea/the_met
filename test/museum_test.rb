@@ -152,7 +152,7 @@ class MuseumTest < Minitest:: Test
     dmns.admit(patron_3)
 
     lottery_contestants = [patron_1.name, patron_3.name]
-    lottery_winner = @dmns.draw_lottery_winner(@dead_sea_scrolls)
+    lottery_winner = dmns.draw_lottery_winner(dead_sea_scrolls)
 
     assert_equal true, lottery_contestants.include?(lottery_winner)
   end
