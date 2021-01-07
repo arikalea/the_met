@@ -1,4 +1,1 @@
-class Exhibit
 
-
-end 
